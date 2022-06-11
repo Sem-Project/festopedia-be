@@ -2,7 +2,7 @@ import { request, response } from "express";
 import grid from 'gridfs-stream';
 import mongoose from "mongoose";
 
-const url = 'http://localhost:5000'
+const url = 'https://festopedia.herokuapp.com'
 
 let gfs;
 const conn= mongoose.connection;
